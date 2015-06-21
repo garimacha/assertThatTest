@@ -1,7 +1,5 @@
 package com.company;
 
-import junit.framework.TestCase;
-
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
@@ -15,6 +13,7 @@ public class TestClass  {
         String mybiscuit="Ginger";
 
         assertThat(mybiscuit,equalTo(gingerBiscuit));
+        // assertThat(mybiscuit,isNotNull(gingerBiscuit));
 
         System.out.println("Test pass ");
 
